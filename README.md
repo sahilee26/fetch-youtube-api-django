@@ -116,6 +116,7 @@ You can find the demonstration of each of these in the [Demonstration](#video-de
 1. Information about YouTube videos is being fetched asynchronously as a background task on regular intervals (25 seconds as per the current implementation).
 2. Pagination support with latest published videos shown first.
 3. Stores Video ID, Title, Description, Publishing Datetime and Thumbnails URLs in the database with indexing done on `Publishing Datetime` column in reverse chronological ordering for faster access.
+4. I have also dockerized the project.
 
 ## Bonus Points
 

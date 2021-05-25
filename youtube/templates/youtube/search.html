@@ -1,0 +1,13 @@
+<h2>Here is the search query result(Page {{data.number}}):</h2>
+
+{% for item in data %}
+    <p>
+        <b>Title:&nbsp</b>{{ item.title}}
+        <br>
+        <b>Description:&nbsp</b>{{ item.description}}
+        <br>
+        <b>Publish Timestamp:&nbsp</b>{{ item.publishedTimestamp}}
+        <br>
+        <b>Thumbnail URL:&nbsp</b>{{ item.thumbnailUrl}}
+    </p>
+{% endfor %}

@@ -84,7 +84,7 @@ There are 4 endpoints in the project:
 2. **`/youtube/startFetching`:** This endpoint triggers a background asynchronorous job to fetch information of videos. This endpoint also supports an optional query parameter to take the search query:
 ```
 http://localhost:8000/youtube/startFetching?searchQuery=Cricket
-http://localhost:8000/youtube/startFetching?searchQuery=Westeros
+http://localhost:8000/youtube/startFetching?searchQuery=Badminton
 ```
 The `searchQuery` is optional and defaults to `Friends TV Show` if not provided.
 

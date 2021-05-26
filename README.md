@@ -102,7 +102,7 @@ http://localhost:8000/youtube/?page=pageNumber
 
 
 
-4. **`/youtube/search`:** This endpoint implements search API to fetch stored video data using their title and description. This endpoint also supports an optional query parameter to take the keywords:
+4. **`/youtube/search`:** This endpoint implements search API to fetch stored video data using their title and description and takes a query parameter to take the keywords. It shows 10 results
 ```
 http://localhost:8000/youtube/search?keywords=Cricket
 http://localhost:8000/youtube/search?keywords=Westeros

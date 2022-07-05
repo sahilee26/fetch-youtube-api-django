@@ -1,0 +1,85 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="191" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="51">
+            <item index="0" class="java.lang.String" itemvalue="nyala-outbound-manager" />
+            <item index="1" class="java.lang.String" itemvalue="gevent" />
+            <item index="2" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="3" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="4" class="java.lang.String" itemvalue="pandas" />
+            <item index="5" class="java.lang.String" itemvalue="Django" />
+            <item index="6" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="pylint" />
+            <item index="9" class="java.lang.String" itemvalue="pyroma" />
+            <item index="10" class="java.lang.String" itemvalue="statsd" />
+            <item index="11" class="java.lang.String" itemvalue="prospector" />
+            <item index="12" class="java.lang.String" itemvalue="pylint-django" />
+            <item index="13" class="java.lang.String" itemvalue="astroid" />
+            <item index="14" class="java.lang.String" itemvalue="pendulum" />
+            <item index="15" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="16" class="java.lang.String" itemvalue="pylint-common" />
+            <item index="17" class="java.lang.String" itemvalue="pbr" />
+            <item index="18" class="java.lang.String" itemvalue="requirements-detector" />
+            <item index="19" class="java.lang.String" itemvalue="greenlet" />
+            <item index="20" class="java.lang.String" itemvalue="ptyprocess" />
+            <item index="21" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="22" class="java.lang.String" itemvalue="pickleshare" />
+            <item index="23" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="24" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="25" class="java.lang.String" itemvalue="pep8" />
+            <item index="26" class="java.lang.String" itemvalue="setuptools" />
+            <item index="27" class="java.lang.String" itemvalue="drf-url-filters" />
+            <item index="28" class="java.lang.String" itemvalue="django-prometheus" />
+            <item index="29" class="java.lang.String" itemvalue="ipython-genutils" />
+            <item index="30" class="java.lang.String" itemvalue="Pygments" />
+            <item index="31" class="java.lang.String" itemvalue="mccabe" />
+            <item index="32" class="java.lang.String" itemvalue="freezegun" />
+            <item index="33" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="34" class="java.lang.String" itemvalue="python-jose" />
+            <item index="35" class="java.lang.String" itemvalue="six" />
+            <item index="36" class="java.lang.String" itemvalue="pyflakes" />
+            <item index="37" class="java.lang.String" itemvalue="retail-py-common" />
+            <item index="38" class="java.lang.String" itemvalue="ipython" />
+            <item index="39" class="java.lang.String" itemvalue="pep8-naming" />
+            <item index="40" class="java.lang.String" itemvalue="pylint-plugin-utils" />
+            <item index="41" class="java.lang.String" itemvalue="pexpect" />
+            <item index="42" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="43" class="java.lang.String" itemvalue="lazy-object-proxy" />
+            <item index="44" class="java.lang.String" itemvalue="boto3" />
+            <item index="45" class="java.lang.String" itemvalue="retrying" />
+            <item index="46" class="java.lang.String" itemvalue="pep257" />
+            <item index="47" class="java.lang.String" itemvalue="isort" />
+            <item index="48" class="java.lang.String" itemvalue="pylint-celery" />
+            <item index="49" class="java.lang.String" itemvalue="pylint-flask" />
+            <item index="50" class="java.lang.String" itemvalue="numpy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="dict" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="product.tests.unit_tests.test_new_tax_check.TaxCheckTest.*" />
+          <option value="float.copy" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

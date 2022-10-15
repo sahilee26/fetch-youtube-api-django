@@ -14,10 +14,9 @@ RUN mkdir /youtube_service
 WORKDIR /youtube_service
 
 # Copy the current directory contents into the container at /youtube_service
-ADD . /youtube_service/
+COPY . /youtube_service
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
-
-CMD ["python" , "manage.py" , "runserver", "8000"]
+CMD ["python" , "manage.py" , "runserver", "0.0.0.0:8000"]
